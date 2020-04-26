@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdesign"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="269dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:text="Personalized Message"
+        android:textColor="@android:color/white"
+        tools:textSize="24sp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="161dp"/>
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="369dp"
+        android:layout_height="47dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@android:color/white"
+        tools:textSize="24sp" />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="161dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Save"
+        android:onClick="save"/>
+    <Button
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:onClick="load"
+        android:layout_marginLeft="161dp" />
+    <Button
+        android:id="@+id/getcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Contacts"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="154dp"
+      />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="154dp"
+        android:onClick="send"
+        app:srcCompat="@android:drawable/btn_star" />
+
+
+</LinearLayout>

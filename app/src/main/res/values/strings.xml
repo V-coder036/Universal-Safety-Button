@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">USB</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="button">Button</string>
+    <string name="add_your_android_string_emptyphonenumber">Add your @android:string/emptyPhoneNumber</string>
+    <string name="add_ur_pnone_string_add_your_android_string_emptyphonenumber">Add ur pnone @string/add_your_android_string_emptyphonenumber</string>
+    <string name="phone">Phone</string>
+    <string name="title_activity_2">Activity_2</string>
+    <string name="title_activity_3">Activity_3</string>
+</resources>
